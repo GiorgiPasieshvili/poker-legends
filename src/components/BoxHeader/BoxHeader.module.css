@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  background-color: #2c3234;
+  padding: 24px;
+
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container[data-small="true"] {
+  padding: 18px;
+  font-size: 13px;
+
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.container img {
+  display: flex;
+  margin-inline: auto;
+}
+
+@media (min-width: 940px) {
+  .container {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,21 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  max-width: 940px;
+  background-color: #171718;
+  padding: 12px;
+  border-top: 2px solid #f05a22;
+}
+
+@media (min-width: 940px) {
+  .footer {
+    padding: 16px;
+  }
+}

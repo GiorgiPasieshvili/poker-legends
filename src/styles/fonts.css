@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Helvetica-Roman;
+  src: url("../assets/fonts/NovemberGeLC-Regular.woff2") format("woff2"),
+    url("../assets/fonts/NovemberGeLC-Regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: Helvetica-Medium;
+  src: url("../assets/fonts/NovemberGeLC-Medium.woff2") format("woff2"),
+    url("../assets/fonts/NovemberGeLC-Medium.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: Helvetica-Bold;
+  src: url("../assets/fonts/NovemberGeLC-Bold.woff2") format("woff2"),
+    url("../assets/fonts/NovemberGeLC-Bold.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+.font-roman {
+  font-family: "Helvetica-Roman" !important;
+}
+
+.font-medium {
+  font-family: "Helvetica-Medium" !important;
+}
+
+.font-bold {
+  font-family: "Helvetica-Bold" !important;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-feature-settings: "case";
+  -webkit-font-feature-settings: "case";
+}

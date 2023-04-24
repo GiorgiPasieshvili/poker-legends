@@ -1,0 +1,117 @@
+.popup {
+  overflow: hidden;
+  font-family: "Helvetica-Roman";
+}
+
+.main {
+  padding-inline: 1rem;
+  padding-bottom: 3rem;
+  background-color: #1c1d1e;
+}
+
+.section {
+  margin-bottom: 42px;
+}
+
+.section-title {
+  margin-bottom: 22px;
+  font-family: "Helvetica-Bold";
+  font-size: 18px;
+}
+
+.space-between {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Button Styles */
+.button {
+  min-width: 120px;
+  background-color: #f05a22;
+  padding: 8px 16px;
+
+  font-family: "Helvetica-Medium";
+  font-size: 13px;
+  color: #fff;
+
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ee4c1e;
+}
+
+/* Decorative Lines */
+.top-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+
+  width: 50%;
+  max-width: 125px;
+  height: 4px;
+  background-color: #ef5a21;
+
+  box-shadow: 0 0 10px #ef5a21;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.left-line {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 4px;
+  height: 28px;
+  background-color: #ef5a21;
+
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  box-shadow: 0 0 10px #ef5a21;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #2c3234;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f05a22;
+  border-radius: 2px;
+}
+
+/* Desktop Styles */
+@media (min-width: 940px) {
+  .popup {
+    width: 940px;
+    margin-inline: auto;
+  }
+
+  .main {
+    padding-inline: 43px;
+  }
+
+  .section-title {
+    margin-bottom: 32px;
+  }
+
+  .top-line {
+    max-width: 250px;
+  }
+
+  .button {
+    min-width: 140px;
+    font-size: 15px;
+  }
+}
